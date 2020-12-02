@@ -31,7 +31,7 @@ switch (comando) {
     case 'actualizar':
 
         let actualizado = porHacer.actualizar(argv.descripcion, argv.completado);
-        console.log(actualizado);
+        console.log(actualizado + "mod");
         break;
 
     case 'borrar':
